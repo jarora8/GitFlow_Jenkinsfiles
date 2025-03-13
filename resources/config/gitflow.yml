@@ -161,7 +161,7 @@ executionEnvironments:
       hostName:               'cw09.bmc.com'
       hostPort:               '47624'
     ces:
-      url:                    http://cwcc.bmc.com:2020
+      url:                    http://172.19.173.36:48226
     sonar:
       scanner:                scanner
       server:                 localhost
@@ -170,7 +170,7 @@ executionEnvironments:
     xlr:
       template:               'GitFlow/GitFlow_Release'
     jenkins:
-      cliPath:                'C:\WB_CLI_230502'
+      cliPath:                'C:\23.5-cli-ga'
     ispw:
       libraryQualifier:         'SALESSUP'    
       mfProject:
